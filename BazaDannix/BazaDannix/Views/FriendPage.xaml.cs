@@ -1,10 +1,11 @@
 ﻿using BazaDannix.ViewModels;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace BazaDannix.Views
 {
-    //   [XamlCompilation(XamlCompilationOptions.Compile)]
+        [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FriendPage : ContentPage
     {
         public FriendViewModel ViewModel { get; private set; }

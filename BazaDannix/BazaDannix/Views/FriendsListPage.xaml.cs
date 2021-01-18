@@ -18,10 +18,5 @@ namespace BazaDannix.Views
             InitializeComponent();
             BindingContext = new FriendsListViewModel() { Navigation = this.Navigation };
         }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

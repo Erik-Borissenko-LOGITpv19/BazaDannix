@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BazaDannix.ViewModels
 {
-    class FriendViewModel : INotifyPropertyChanged
+    public class FriendViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         FriendsListViewModel lvm;

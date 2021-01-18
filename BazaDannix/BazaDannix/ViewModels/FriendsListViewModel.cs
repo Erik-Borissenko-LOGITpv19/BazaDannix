@@ -9,7 +9,7 @@ using Xamarin.Forms;
 
 namespace BazaDannix.ViewModels
 {
-    class FriendsListViewModel : INotifyPropertyChanged
+    public class FriendsListViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         public ObservableCollection<FriendViewModel> Friends { get; set; }
